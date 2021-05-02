@@ -1,0 +1,14 @@
+{
+    "name": "First extenstion",
+    "description": "Build an Extension!",
+    "version": "2.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "index.js"
+      },
+      "permissions": ["activeTab", "https://ajax.googleapis.com/"],
+    "action": {
+        "default_popup": "popup.html"
+      }
+  }
+  
